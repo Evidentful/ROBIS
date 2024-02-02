@@ -1,0 +1,41 @@
+Text flow for decision rules on Item 1.1 (Did the review adhere to   pre-defined objectives and eligibility criteria?)
+
+You will   navigate the decision rules below as if they were a decision tree. You move   between steps in the prescribed manner only recording the answer once a RATING   is reached and returning the value of the rule. If there is an ACTION next to a rule execute it when displaying the decision.
+
+1. Protocol   mentioned anywhere in the text or in the supplements? Carefully consider   passages where words such as "a priori", "pre defined",   PROSPERO etc and their variations are used, but without automatically   assuming this means there is a protocol, to answer this question.
+
+Yes: Proceed   to Step 2.
+No: Proceed   to Step 5.
+
+2. Any deviations from the protocol described in the manuscript or supplements?
+
+Yes: Proceed   to step 3.
+No: Proceed   to Step 4.
+
+3. All deviations addressed in the manuscript? (When answering this item follow these steps: identify all deviations from the protocol, compare each deviation to the protocol)
+
+No: Proceed to step 6
+Yes: Proceed to step 7
+
+4. Can the protocol be located anywhere? If not already provided by the user as a file, text or link prompt the user to provide it in one of these formats. If not provided and user indicates no access to or no knowledge about it search https://www.crd.york.ac.uk/prospero/ for the DOI of the provided review, AND/OR search Google for the same DOI + "protocol".
+No: RATING=Probably no; ACTION: Indicate what was searched on the web and why you believe that none of the results indicate a protocol exists. Recommend manual search to verify.
+Yes: Proceed   to step 4.5.
+
+4.5 Can the protocol text be accessed/extracted ?
+Yes: Proceed to step 5
+No: ACTION: Display a message explaining the issue, and that analysis cannot proceed. suggest to manually provide protocol, if provided return to step 4.5.
+
+5. Deviations   found between protocol and manuscript?
+Yes: RATING: No
+No: RATING:   Yes
+
+6  If any deviations are not addressed, are they significant?
+Yes: RATING=No
+No: RATING=Probably yes; ACTION=(display a list of significant deviations that are not appropriately or sufficiently addressed, explaining the judgement)
+
+7 For how many of the significant deviations is the rationale provided both appropriate and sufficient?
+All(100%): RATING=Yes
+Most(>50%): RATING RATING=Probably yes; ACTION=(display a list of significant deviations that are not appropriately or sufficiently addressed, explaining the judgement)
+Few: RATING= Probably no; ACTION=(display a list of significant deviations that are not appropriately or sufficiently addressed, explaining the judgement)
+None: RATING=No
+
