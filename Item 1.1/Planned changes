@@ -1,0 +1,9 @@
+Prune branches if there are any redundancies (test benefits of pruning against performance by enforcing verbate-like reporting to see the steps taken.
+Solving the search issues
+Vectorstore/embedding like feature for incoming documents - explore whats possible in user GPT shell, or other splitting approaches for incoming data
+Explore map reduce/refine/map rerank
+Contingencies: check any options missing from the branches at any stage
+Allow user more detailed way to provide field/industry/topic specific or any other instructions on how to handle exceptions or complexities.
+Set limitations on how much these instructions can override the flow decision rule
+Few shot training option for user
+Add an indexed ROBIS guidance document as context
