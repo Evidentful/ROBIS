@@ -7,3 +7,5 @@ Allow user more detailed way to provide field/industry/topic specific or any oth
 Set limitations on how much these instructions can override the flow decision rule
 Few shot training option for user
 Add an indexed ROBIS guidance document as context
+Add disclaimer suggestions and recommendations for use:
+  - Advise not to not incorporate findings in research without a human assessor going over the results unless the research is on AI efficacy
